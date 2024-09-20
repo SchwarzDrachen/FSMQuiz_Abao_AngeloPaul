@@ -27,7 +27,5 @@ public class DeadState : FSMState
             Debug.LogError("Make sure agent has EnemyTankController");
             return;
         }
-
-        
     }
 }

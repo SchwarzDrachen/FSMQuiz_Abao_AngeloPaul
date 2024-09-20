@@ -7,8 +7,8 @@ public class Healthbar : MonoBehaviour
 {
     public Image healthBar;
 
-    public void UpdateHealth(float fraction)
+    public void UpdateHealth(float nowHP)
     {
-        healthBar.fillAmount = fraction;
+        healthBar.fillAmount = nowHP;
     }
 }
